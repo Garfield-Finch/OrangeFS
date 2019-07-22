@@ -1,3 +1,4 @@
+# the main function to test the orangefs with fio
 # set alias for this script
 alias empty_env='rm /mnt/test.* ~/test.*'
 # init results.txt file
