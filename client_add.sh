@@ -1,4 +1,4 @@
-# scp -rp root@167.179.67.209:/opt/orangefs /opt
+# scp -rp root@*.*.*.*:/opt/orangefs /opt
 kopth=$(find /opt/orangefs -name pvfs2.ko)
 insmod $kopth
 /opt/orangefs/sbin/pvfs2-client
