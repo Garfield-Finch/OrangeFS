@@ -1,10 +1,13 @@
 # OrangeFS
 ## Two Scripts
-`sh once.sh`
+### `sh once.sh`
 
 'once.sh' is a one-click script to set up server and client with localhost under default configuration of OrangeFS 2.9.7.
 
-`sh main.sh`
+It is worth mentioning that 'once.sh' rely on two scripts 'server_add.sh' and 'client_add.sh', please put those three script in the same directory.
+
+### `sh main.sh`
+
 'main.sh' is a user-friendly script to test io with FIO, please change those parameters for your needs.
 
 ## Operation System
